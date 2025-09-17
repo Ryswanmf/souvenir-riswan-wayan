@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="id">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Souvnela - Souvenir Polinela</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; }
+        .navbar-brand {
+            color: #002254ff;
+        }
+        .navbar-nav .nav-link.active {
+            color: #002254ff;
+        }
+        .hero {
+            background: linear-gradient(135deg, #4facfe 0%, #002254ff 100%);
+            color: white;
+            padding: 120px 0;
+            text-align: center;
+        }
+        .hero h1 { font-size: 3rem; font-weight: bold; }
+        .hero p { font-size: 1.2rem; }
+        .features .icon {
+            font-size: 40px;
+            color: #002254ff;
+        }
+        footer {
+            background: #f8f9fa;
+            padding: 20px;
+            text-align: center;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="#">Souvnela</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto fw-semibold">
+                <li class="nav-item"><a class="nav-link active" href="#">Beranda</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#produk" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Produk
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#mug">Mug Polinela</a></li>
+                        <li><a class="dropdown-item" href="#kaos">Kaos Polinela</a></li>
+                        <li><a class="dropdown-item" href="#tumbler">Tumbler Polinela</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#all">Semua Produk</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="#kontak">Kontak</a></li>
+                <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+                <li class="nav-item"><a class="nav-link" href="#tentang">Tentang Kami</a></li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#checkout">
+                        <i class="bi bi-cart3"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#signin">
+                        <i class="bi bi-person-circle"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero py-5" style="background-color: #002254ff;">
+    <div class="container">
+        <div class="row align-items-center">
+            <!-- Teks Hero -->
+            <div class="col-lg-6 text-white text-center text-lg-start mb-4 mb-lg-0">
+                <h1 class="display-4 fw-bold mb-3">Souvenir Eksklusif Polinela</h1>
+                <p class="lead mb-4">"Tunjukkan identitas kampusmu dengan bangga! Souvnela menghadirkan koleksi merchandise dan suvenir eksklusif yang dirancang khusus untukmu. Setiap produk bukan hanya barang, tapi juga cerita dan bagian dari perjalananmu. Waktunya rayakan bangga almamater!"</p>
+                <a href="#produk" class="btn btn-lg px-4 py-2 text-white" style="background-color: #002254ff;">Lihat Produk</a>
+            </div>
+
+            <!-- Gambar Hero -->
+            <div class="col-lg-6 text-center">
+                <img src="oo.png" class="img-fluid " alt="Gambar Freepik">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Features Section -->
+<section class="features py-5">
+    <div class="container text-center">
+        <h2 class="mb-4">Kenapa Memilih Kami?</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="icon mb-3">🎁</div>
+                <h5>Kualitas Premium</h5>
+                <p>Souvenir terbuat dari bahan berkualitas terbaik untuk kepuasan Anda.</p>
+            </div>
+            <div class="col-md-4">
+                <div class="icon mb-3">⚡</div>
+                <h5>Proses Cepat</h5>
+                <p>Pesanan diproses dengan cepat agar segera sampai ke tangan Anda.</p>
+            </div>
+            <div class="col-md-4">
+                <div class="icon mb-3">💳</div>
+                <h5>Transaksi Mudah</h5>
+                <p>Metode pembayaran yang fleksibel dan aman digunakan.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Produk Section -->
+<section id="produk" class="py-5 bg-light">
+    <div class="container text-center">
+        <h2 class="mb-4">Produk Unggulan</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <img src="mug.png"  class="card-img-top" alt="Produk">
+                    <div class="card-body">
+                        <h5 class="card-title">Mug Polinela</h5>
+                        <p class="card-text">Rp 50.000</p>
+                        <a href="#" class="btn btn-primary">Pesan</a>
+                    </div>
+                </div>
+            </div>
+             <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <img src="kaos.png"  class="card-img-top" alt="Produk">
+                    <div class="card-body">
+                        <h5 class="card-title">Kaos Polinela</h5>
+                        <p class="card-text">Rp 100.000</p>
+                        <a href="#" class="btn btn-primary">Pesan</a>
+                    </div>
+                </div>
+            </div>
+             <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <img src="tumbler.png" class="card-img-top" alt="Produk">
+                    <div class="card-body">
+                        <h5 class="card-title">Tumbler Polinela</h5>
+                        <p class="card-text">Rp 75.000</p>
+                        <a href="#" class="btn btn-primary">Pesan</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Tentang -->
+<section id="tentang" class="py-5">
+    <div class="container text-center">
+        <h2>Tentang Kami</h2>
+        <p class="lead">Souvnela adalah platform pemesanan souvenir resmi di Politeknik Negeri Lampung. Kami hadir untuk memudahkan mahasiswa, dosen, dan tamu dalam memperoleh merchandise eksklusif kampus.</p>
+    </div>
+</section>
+
+<!-- Footer -->
+<!-- Footer -->
+<footer class="text-white pt-5" style="background-color:#002254ff;">
+    <div class="container pb-4">
+        <div class="row text-start">
+            <!-- Brand & Deskripsi -->
+            <div class="col-md-3 mb-4">
+                <h5 class="fw-bold mb-3">Souvnela</h5>
+                <p class="small">Platform pemesanan souvenir eksklusif Politeknik Negeri Lampung. Mudah, cepat, dan terpercaya.</p>
+                <!-- Social media -->
+                <div class="d-flex gap-3 fs-5 mt-3">
+                    <a href="#" class="text-white social-icon"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="text-white social-icon"><i class="bi bi-instagram"></i></a>
+                    <a href="#" class="text-white social-icon"><i class="bi bi-youtube"></i></a>
+                    <a href="#" class="text-white social-icon"><i class="bi bi-tiktok"></i></a>
+                </div>
+            </div>
+
+            <!-- Link Penting -->
+            <div class="col-md-3 mb-4">
+                <h5 class="fw-bold mb-3">Link Penting</h5>
+                <ul class="list-unstyled small">
+                    <li class="mb-2"><a href="#" class="text-white text-decoration-none footer-link">Konfirmasi Pembayaran</a></li>
+                    <li class="mb-2"><a href="#" class="text-white text-decoration-none footer-link">Pembayaran & Pengiriman</a></li>
+                    <li class="mb-2"><a href="#" class="text-white text-decoration-none footer-link">Syarat & Ketentuan</a></li>
+                    <li><a href="#" class="text-white text-decoration-none footer-link">Kebijakan Privasi</a></li>
+                </ul>
+            </div>
+
+            <!-- Marketplace -->
+            <div class="col-md-3 mb-4">
+                <h5 class="fw-bold mb-3">Marketplace</h5>
+                <div class="d-flex flex-wrap gap-3 align-items-center">
+                    <a href="#"><img src="tokped.png" alt="Tokopedia" height="40"></a>
+                    <a href="#"><img src="shopee.png" alt="Shopee" height="40"></a>
+                    <a href="#"><img src="tiktok.png" alt="TikTok" height="40"></a>
+                </div>
+            </div>
+
+            <!-- Lokasi -->
+            <div class="col-md-3 mb-4">
+                <h5 class="fw-bold mb-3">Lokasi</h5>
+                <div class="ratio ratio-4x3">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.657566180881!2d105.26064511431925!3d-5.435782795580823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e40d63e9c1f6a8f%3A0x1f5f48c25b0c6a6b!2sPoliteknik%20Negeri%20Lampung!5e0!3m2!1sen!2sid!4v1694850200000!5m2!1sen!2sid" 
+                        style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr class="my-0">
+
+    <!-- Copyright -->
+    <div class="text-center py-3" style="background-color: #002254ff;">
+        <small class="small">&copy; <?= date('Y'); ?> Souvnela - Souvenir Polinela. Wayan dan Riswan.</small>
+    </div>
+</footer>
+
+<!-- Hover effect untuk link dan ikon -->
+<style>
+    .footer-link:hover {
+        color: #ffc107;
+        text-decoration: underline;
+        transition: 0.3s;
+    }
+
+    .social-icon:hover {
+        color: #ffc107;
+        transform: scale(1.2);
+        transition: 0.3s;
+    }
+</style>
+
+
+
+<!-- Hover effect -->
+<style>
+    a.text-white:hover {
+        color: #ffc107 !important; 
+        transform: scale(1.1);
+        transition: 0.3s;
+    }
+</style>
+
+
+<!-- Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+</html>
